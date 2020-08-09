@@ -16,7 +16,7 @@ let package = Package(
         .library(
             name: "Dummy_Swift_Package",
             type: .dynamic,
-            targets: ["Dummy_Swift_Package"]),
+            targets: ["DummySwiftPackage"]),
     ], dependencies: [
     ],
        targets: [
