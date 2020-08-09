@@ -6,5 +6,5 @@ struct DummySwiftPackage {
 
 public struct DummyStruct {
     public var aVar = 1
-    public static func aUIID() -> Int { UUID() }
+    public static func aUIID() -> String { UUID().uuidString }
 }
