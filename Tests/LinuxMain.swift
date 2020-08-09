@@ -1,7 +1,7 @@
 import XCTest
 
-import DummySwiftPackageTests
+import Dummy_Swift_PackageTests
 
 var tests = [XCTestCaseEntry]()
-tests += DummySwiftPackageTests.allTests()
+tests += Dummy_Swift_PackageTests.allTests()
 XCTMain(tests)
