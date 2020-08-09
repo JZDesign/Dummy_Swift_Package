@@ -22,9 +22,6 @@ let package = Package(
        targets: [
         .target(
             name: "Dummy_Swift_Package",
-            dependencies: []),
-        .testTarget(
-            name: "Dummy_Swift_PackageTests",
-            dependencies: ["Dummy_Swift_Package"]),
+            dependencies: [])
     ]
 )
