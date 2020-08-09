@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "DummySwiftPackage",
+    name: "Dummy_Swift_Package",
     platforms: [
         .iOS(.v13),
         .tvOS(.v11),
@@ -14,17 +14,17 @@ let package = Package(
     products: [
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
         .library(
-            name: "DummySwiftPackage",
+            name: "Dummy_Swift_Package",
             type: .dynamic,
-            targets: ["DummySwiftPackage"]),
+            targets: ["Dummy_Swift_Package"]),
     ], dependencies: [
     ],
        targets: [
         .target(
-            name: "DummySwiftPackage",
+            name: "Dummy_Swift_Package",
             dependencies: []),
         .testTarget(
-            name: "DummySwiftPackageTests",
-            dependencies: ["DummySwiftPackage"]),
+            name: "Dummy_Swift_PackageTests",
+            dependencies: ["Dummy_Swift_Package"]),
     ]
 )
