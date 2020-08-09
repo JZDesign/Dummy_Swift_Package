@@ -21,7 +21,8 @@ let package = Package(
     ],
        targets: [
         .target(
-            name: "Dummy_Swift_Package",
-            dependencies: [])
+            name: "DummySwiftPackage",
+            dependencies: [],
+            path: "Sources/Dummy_Swift_Package")
     ]
 )
